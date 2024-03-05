@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
     s.homepage         = 'http://example.com'
     s.license          = { :type => 'BSD', :file => '../LICENSE' }
     s.author           = { 'Your Company' => 'email@example.com' }
-    s.source           = { :path => '.' }
+    s.source           = { :git => 'https://github.com/jtdLab/vosk_bin.git'}
+#    s.source           = { :http => 'https://github.com/username/TestPod/releases/download/0.1/TestPod-0.1.zip'}
     s.source_files     = 'Classes/**/*'
     s.public_header_files =  'Classes/**/*.h'
     s.dependency 'Flutter'
